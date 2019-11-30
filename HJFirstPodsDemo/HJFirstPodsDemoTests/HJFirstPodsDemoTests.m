@@ -1,6 +1,6 @@
 //
-//  HJPodsDemoTests.m
-//  HJPodsDemoTests
+//  HJFirstPodsDemoTests.m
+//  HJFirstPodsDemoTests
 //
 //  Created by whj on 2019/11/30.
 //  Copyright © 2019 whj. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HJPodsDemoTests : XCTestCase
+@interface HJFirstPodsDemoTests : XCTestCase
 
 @end
 
-@implementation HJPodsDemoTests
+@implementation HJFirstPodsDemoTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

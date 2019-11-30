@@ -1,6 +1,6 @@
 //
-//  HJPodsDemo.h
-//  HJPodsDemo
+//  HJFirstPods.h
+//  HJFirstPods
 //
 //  Created by whj on 2019/11/30.
 //  Copyright © 2019 whj. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HJPodsDemo : NSObject
+@interface HJFirstPods : NSObject
 
 + (void)summary;
 
