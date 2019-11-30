@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)summary;
 
++ (NSString *)current_version;
+
 @end
 
 NS_ASSUME_NONNULL_END

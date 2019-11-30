@@ -15,4 +15,10 @@
     NSLog(@"很荣幸见到你，这是whj发布的第一个pod框架!!!");
     
 }
+
++ (NSString *)current_version {
+    
+    return [NSString stringWithFormat:@"%@", [[[NSBundle mainBundle] infoDictionary] objectForKey:kCFBundleVersionKey]];
+    
+}
 @end

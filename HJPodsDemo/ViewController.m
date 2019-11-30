@@ -20,6 +20,8 @@
     
     [HJPodsDemo summary];
     
+    NSString *version = [HJPodsDemo current_version];
+    NSLog(@"%@", version);
 }
 
 
