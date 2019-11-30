@@ -18,7 +18,7 @@
 
 + (NSString *)current_version {
     
-    return [NSString stringWithFormat:@"%@", [[[NSBundle mainBundle] infoDictionary] objectForKey:kCFBundleVersionKey]];
+    return [NSString stringWithFormat:@"%@", [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
     
 }
 @end
